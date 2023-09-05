@@ -9,9 +9,9 @@
         "Link",
         "Bot"
     ],
-    "website": "https://github.com/Jeolpaul/AUTO-APPROVER-BOT",
-    "repository": "https://github.com/Jeolpaul/AUTO-APPROVER-BOT",
-    "success_url": "https://github.com/Jeolpaul/AUTO-APPROVER-BOT",
+    "website": "https://github.com/Maheshgoud2/AUTO-APPROVER-BOT",
+    "repository": "https://github.com/Maheshgoud2/AUTO-APPROVER-BOT",
+    "success_url": "https://github.com/Maheshgoud2/AUTO-APPROVER-BOT",
     "env": {
         "API_ID": {
             "description": "Your APP ID From @MT_MyTelegramOrg_Bot",
