@@ -23,7 +23,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 @pr0fess0r_99.on_message(filters.private & filters.command(["start"]))
 async def start(client: pr0fess0r_99, message: Message):
     approvedbot = await client.get_me() 
-    button =  [ InlineKeyboardButton("➕️ Add Me To Your Chat ➕️", url=f"http://t.me/{approvedbot.username}?startgroup=botstart") ]]
+    button =  [ InlineKeyboardButton("➕️ Add Me To Your Chat ➕️", url=f"http://t.me/Huddubitbitbot?startgroup=true) ]]
     await client.send_message(chat_id=message.chat.id, text=f"**__Hello {message.from_user.mention} Iam Auto Approver Join Request Bot Just [Add Me To Your Group Channnl]
 
 @pr0fess0r_99.on_chat_join_request(filters.group & filters.chat(CHAT_ID) if CHAT_ID else filters.group)
